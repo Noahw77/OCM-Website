@@ -1,0 +1,98 @@
+
+:root {
+  --light-blue: #98bcd2;
+  --mid-blue: #387cab;
+  --dark-blue: #2c507c;
+  --font: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: #111;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Contact Form Section */
+.contact-main {
+  background-color: #e6eff7;
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form-section {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 700px;
+  width: 100%;
+}
+
+.contact-form-section h1 {
+  text-align: center;
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+
+.contact-form-section p {
+  text-align: center;
+  color: var(--mid-blue);
+  margin-bottom: 2rem;
+}
+
+.vertical-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.vertical-form label {
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+.vertical-form input,
+.vertical-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.vertical-form button {
+  background-color: var(--mid-blue);
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.vertical-form button:hover {
+  background-color: var(--dark-blue);
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Archive | Ochoco Capital</title>
+  <link rel="stylesheet" href="../insights.css"/>
+  <script src="../insights-archive.js" defer></script>
+  <link href="../global.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Header -->
+<div id="header-placeholder"></div>
+
+  <section class="hero-text">
+    <h1>Blog Archive</h1>
+    <p>Access all past market perspectives and research.</p>
+  </section>
+
+  <section class="blog-grid" id="archive-list">
+    <!-- JavaScript will populate full archive here -->
+  </section>
+
+ <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Load Header and Footer -->
+  <script>
+  fetch("../header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header-placeholder").innerHTML = data;
+    });
+
+  fetch("../footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
+</body>
+</html>

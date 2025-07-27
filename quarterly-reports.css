@@ -1,0 +1,130 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* HERO SECTION */
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-logo {
+  max-width: 300px;
+  margin: 0 auto 1.5rem;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-graphic-placeholder {
+  width: 300px;
+  height: 200px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* DROPDOWN SECTION */
+.dropdown-section {
+  background-color: #e6eff7;
+  padding: 3rem 1rem;
+}
+
+.dropdown-section details {
+  margin: 1.5rem auto;
+  max-width: 600px;
+  background: #387cab; /* dark blue */
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.dropdown-section summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.dropdown-section summary::after {
+  content: "▾";
+  position: absolute;
+  right: 0;
+  font-size: 1.2rem;
+}
+
+.dropdown-section details[open] summary::after {
+  content: "▴";
+}
+
+.dropdown-section ul {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.dropdown-section li {
+  margin-bottom: 0.75rem;
+}
+
+.dropdown-section a {
+  text-decoration: none;
+  color: white;
+  background-color: #2c507c;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.dropdown-section a:hover {
+  background-color: #244463;
+}
+
+/* DISCLAIMER SECTION */
+.disclaimer-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+.disclaimer-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.disclaimer-logo {
+  max-height: 80px;
+  margin: 0 auto 1rem;
+}
+
+.disclaimer-text {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+

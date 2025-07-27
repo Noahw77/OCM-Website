@@ -1,0 +1,79 @@
+
+.positions-page {
+  font-family: var(--font);
+  color: var(--dark-blue);
+}
+
+.positions-page h1,
+.positions-page h2 {
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+.intro,
+.positions-section,
+.cta {
+  padding: 2rem 1rem;
+}
+
+.section-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.intro {
+  background-color: #f0f6fb;
+}
+
+.positions-section:nth-of-type(odd) {
+  background-color: #f7fbfd;
+}
+
+.positions-section:nth-of-type(even) {
+  background-color: #e6eff7;
+}
+
+.positions-section img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: block;
+  margin: 1rem auto 0 auto;
+}
+
+.cta {
+  background-color: var(--light-blue);
+  border-top: 2px solid var(--mid-blue);
+  border-bottom: 2px solid var(--mid-blue);
+  text-align: center;
+}
+
+.cta ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  text-align: left;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.cta .contact-text {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.cta .contact-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  border: 2px solid var(--mid-blue);
+  background-color: var(--mid-blue);
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cta .contact-button:hover {
+  background-color: var(--dark-blue);
+  transform: scale(1.05);
+}

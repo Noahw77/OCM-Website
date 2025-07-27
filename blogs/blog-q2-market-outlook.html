@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Q2 Market Outlook | Ochoco Capital</title>
+  <link rel="stylesheet" href="../insights.css"/>
+  <link href="../global.css" rel="stylesheet" />
+</head>
+<body>
+   <!-- Header -->
+<div id="header-placeholder"></div>
+
+  <main class="hero-text">
+    <h1>Q2 Market Outlook</h1>
+    <p><em>Published: July 1, 2025</em></p>
+    <article>
+      <p>As global macro trends evolve, Ochoco Capital has shifted its allocation strategy
+         to overweight large-cap value while trimming speculative tech. Key inflation data
+         and central bank policies continue to influence tactical decisions.</p>
+      <p>Our positioning reflects confidence in selective growth and structured risk while
+         watching geopolitical volatility and currency headwinds. Fixed income exposure remains
+         defensive.</p>
+      <p>This outlook guides both near-term adjustments and long-term portfolio themes aligned with
+         our core philosophy of asymmetric opportunity and risk control.</p>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Load Header and Footer -->
+  <script>
+  fetch("../header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header-placeholder").innerHTML = data;
+    });
+
+  fetch("../footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #111;
+}
+
+a {
+  color: #2c507c;
+  text-decoration: none;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.philosophy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background: #f4f8fc;
+}
+
+.philosophy.alt {
+  background: #e6eff7;
+}
+
+.philosophy-text {
+  max-width: 500px;
+  flex: 1;
+}
+
+.philosophy-graphic {
+  width: 300px;
+  height: 200px;
+  background-color: #cfdfea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2c507c;
+  font-weight: bold;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.quote {
+  background: #fff;
+  color: #2c507c;
+  padding: 4rem 2rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.quote-image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+
+.quote-text {
+  max-width: 600px;
+}
+
+.insights {
+  padding: 3rem 1rem;
+  background: #387cab;
+  color: white;
+  text-align: center;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 2rem auto 0;
+}
+
+.blog-card {
+  background: white;
+  color: #000;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
